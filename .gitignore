@@ -1,0 +1,64 @@
+# Compiled Object files
+*.o
+*.obj
+*.dll
+*.exe
+*.out
+*.app
+
+# Executable (your compiled program)
+treecheck
+program
+avl-baum
+*.exe
+
+# Debug files
+*.dSYM/
+*.dSYM.zip
+*.gch
+*.pdb
+*.ilk
+*.idb
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# Test output files (if you generate any)
+*.log
+test_output.txt
+
+# Backup files
+*.bak
+*.backup
+
+# Core dumps
+core.*
+*.core
+
+# Linux/macOS executables (no extension)
+!*.c
+!*.h
+!LICENSE
+!*.md
+!*.txt
+!*.pdf
+
+# Assignment specific - ignore compiled program
+treecheck.exe
+program.exe
+
+# Ignore any data files that might contain test keys (optional - if you want to track them, remove these lines)
+# *.txt
+# *.dat
